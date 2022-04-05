@@ -45,7 +45,7 @@ header:after {
 
 #headerProjects {
   position: relative;
-  background: url("img/joseph-j-solis-projects.jpg");
+  background: url("/digs/img/joseph-j-solis-projects.jpg");
   background-position: initial;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ header:after {
 
 #headerReading {
   position: relative;
-  background: url("img/reading-list.jpg");
+  background: url("/digs/img/reading-list.jpg");
   background-position: initial;
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,7 +85,7 @@ header:after {
 
 #headerContact {
   position: relative;
-  background: url("img/contact-joseph-j-solis-2.jpg");
+  background: url("/digs/img/contact-joseph-j-solis-2.jpg");
   background-position: initial;
   background-size: cover;
   background-repeat: no-repeat;
