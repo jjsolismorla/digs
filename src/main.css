@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Red+Hat+Mono:wght@300&family=Tangerine&display=swap");
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  position: relative;
+  background: url("/img/bg-joseph.jpg");
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  min-height: 450px;
+}
+
+header:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+#headerAbout {
+  position: relative;
+  background: url("/img/joseph-book.jpg");
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  min-height: 225px;
+}
+
+#headerAbout:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+#headerProjects {
+  position: relative;
+  background: url("/img/joseph-j-solis-projects.jpg");
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  min-height: 225px;
+}
+
+#headerProjects:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+#headerReading {
+  position: relative;
+  background: url("/img/reading-list.jpg");
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  min-height: 225px;
+}
+
+#headerReading:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+#headerContact {
+  position: relative;
+  background: url("/img/contact-joseph-j-solis-2.jpg");
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  min-height: 225px;
+}
+
+#headerContact:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: em(28);
+  color: black !important;
+  background-color: white !important;
+  z-index: 3;
+}
+
+.navbar-nav {
+  z-index: 3;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 700;
+  color: black !important;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  font-size: em(13);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f4f4f4 !important;
+}
+
+.header-title {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: em(200);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.header-title--blog-page {
+  text-align: left;
+}
+
+.header-title__h1 {
+  font-size: em(150);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.header-title__p {
+  font-size: em(26);
+}
+
+.header-title__meta span {
+  font-size: em(20);
+}
+
+.header-title__meta__author a {
+  color: white !important;
+}
+
+.header-title-about {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: em(200);
+  color: white;
+  text-align: left;
+  z-index: 1;
+}
+
+.header-title-about--blog-page {
+  text-align: left;
+}
+
+.header-title-about__h1 {
+  font-size: em(150);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.header-title-about__p {
+  font-size: em(26);
+}
+
+.header-title-about__meta span {
+  font-size: em(20);
+}
+
+.header-title-about__meta__author a {
+  color: white !important;
+}
+
+.description p::first-letter {
+  font-size: 80px;
+  color: red;
+}
+
+.blog-archive {
+  margin: em(70) 0;
+}
+
+.blog-archive__item {
+  margin-top: em 40;
+  border-bottom: solig 2px #eee;
+}
+
+.blog-archive__item__h2 {
+  font-size: em(40);
+  font-weight: 900;
+}
+
+.blog-archive__item__p {
+  font-size: em(24);
+  font-weight: 300;
+}
+
+.blog-archive__item__meta {
+  margin-bottom: em(40);
+}
+
+.blog-archive__item__meta__author-label {
+  color: gray;
+}
+
+.blog-single {
+  margin: em(70) 0;
+}
+
+.blog-single__h1 {
+  font-size: em(40);
+  font-weight: 900;
+  margin-bottom: em(16);
+  line-height: 1.5;
+}
+
+.blog-single__p {
+  font-size: em(20);
+  font-weight: 300;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Featured Services
+--------------------------------------------------------------*/
+.featured-services {
+  padding: 0;
+}
+
+.featured-services .icon-box {
+  padding: 20px;
+  color: white;
+  background: #0f0502;
+  border-radius: 4px;
+  border: 1px solid #0f0502;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 100%;
+  text-align: center;
+}
+
+.featured-services .icon-box2 {
+  padding: 20px;
+  color: white;
+  background: #0f0502;
+  border-radius: 4px;
+  border: 1px solid #0f0502;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 100%;
+  text-align: center;
+}
+
+.featured-services .icon {
+  margin: 0 0 15px 0;
+}
+
+.featured-services .icon i {
+  color: #16df7e;
+  font-size: 36px;
+}
+
+.featured-services .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.featured-services .title a {
+  color: #bcbec2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.featured-services .icon-box:hover {
+  border-color: #eaecef;
+}
+
+.featured-services .icon-box:hover .title a {
+  color: white;
+}
+
+.featured-services .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.featured-services .description2 {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.featured-services .description2 p:first-child:first-letter {
+  color: red;
+  font-size: 80px;
+  float: left;
+  padding-right: 8px;
+  line-height: 0.7;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+#mc_embed_signup {
+  text-align: center;
+  line-height: 2;
+}
+
+#mc_embed_signup .optionalParent {
+  padding-top: 20px;
+}
+
+#mc_embed_signup .optionalParent .clear foot .button {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
