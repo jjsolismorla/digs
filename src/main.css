@@ -5,7 +5,7 @@ body {
 
 header {
   position: relative;
-  background: url("img/bg-joseph.jpg");
+  background: url("/digs/img/bg-joseph.jpg");
   background-position: initial;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ header:after {
 
 #headerAbout {
   position: relative;
-  background: url("img/joseph-book.jpg");
+  background: url("/digs/img/joseph-book.jpg");
   background-position: initial;
   background-size: cover;
   background-repeat: no-repeat;
