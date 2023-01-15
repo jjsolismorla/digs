@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Purita",
+      "tensorShape": [
+        1000,
+        50
+      ],
+      "tensorPath": "https://jjsolismorla.github.io/digs/tensorsfpPF.txt",
+      "metadataPath": "https://jjsolismorla.github.io/digs/metadatafPF.txt"
+    }
+  ]
+}
