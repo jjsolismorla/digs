@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "MDF",
+      "tensorShape": [
+        1000,
+        50
+      ],
+      "tensorPath": "https://jjsolismorla.github.io/digs/tensorsfpMDF.txt",
+      "metadataPath": "https://jjsolismorla.github.io/digs/metadatafMDF.txt"
+    }
+  ]
+}
